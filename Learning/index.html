@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Basics of HTML
+        </title>
+        <meta charset="UTF-8">
+        <meta name="Description" content="This is a basic HTML document demonstrating various elements and tags.">
+        <meta name="Keywords" content="HTML, Basics, Tags, Elements, Example">
+        <meta name="Author" content="DreRus">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="refresh" content="300">
+
+    </head>
+
+        <body style="background-color:azure;">
+
+            <h1 style="color: blue;">i like pizza</h1>
+            <hr>
+            <h2 style="color: rgb(5, 240, 232);">i like pasta</h2>
+            <h3 style="color: #28f005;">i like ice cream</h3>
+            <h4>i like cake</h4>
+            <h5>i like cookies</h5>
+            <h6>i like brownies</h6>
+
+            <p style="background-color: yellow; color: red;">
+                This is some sample text 
+            </p>
+            <br>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto officiis nisi quam explicabo labore eius debitis incidunt dolorem optio magni corrupti magnam neque reprehenderit fugit illum, molestiae maxime porro accusamus.
+            </p>
+
+            
+            <!-- this is a comment -->
+
+            <a href="https://www.google.com" target="_blank" title="Try it">
+                This is a link to example.com 
+            </a>
+            <br>
+
+            <a href="page2.html" target="_blank" title="Try it">
+                go to page 2
+            </a>
+            <br>
+
+            <a href="mailto:rushufaddu1311@gmail.com" target="_self" title="Try it">
+                This is a link to my email
+            </a>
+
+            <br>
+
+            <img src="images/Blooming.jpeg"   alt="  flowers" width="300" height="200" title="Blooming">
+            <br>
+
+            <a href="images/Blooming.jpeg">
+                <img src="images/Blooming.jpeg"   alt="  flowers" width="100" height="100" title="Blooming">
+            </a>
+
+
+            <br>
+
+            <audio controls>
+               
+                <source src="sound/fall-by-ashutosh.mp3" type="audio/mpeg">
+                <!-- you can add other sources in case one fails-->
+                Your browser does not support the audio element in case all fail.
+
+            </audio>
+
+            <br>
+
+            <!-- MP4, WebM, and Ogg are supported for videos-->
+            <video width="320" height="240" controls>
+                <source src="video/Ocean.mp4" type="video/mp4">
+                <!-- you can add other sources in case one fails -->
+                Your browser does not support the video tag.
+            </video>
+
+            <br>
+            <!-- Text formatting -->
+            
+            <p>This is a text </p>
+            <p>This is a <b> bold text</b> </p>
+            <p>This is a <i> italic text</i> </p>
+            <p>This is a <u> underlined text</u> </p>
+            <p>This is a <s> strikethrough text</s> </p>
+            <p>This is a <sub> subscript text</sub> </p>
+            <p>This is a <sup> superscript text</sup> </p>
+            <p>This is a <big> big text</big> </p>
+            <p>This is a <small> small text</small> </p>
+            <p>This is a <ins>inserted text</ins> </p>
+            <p>This is a <del>deleted text</del> </p>
+            <p>This is a <mark>marked text</mark> </p>
+
+            <br>
+
+
+            <h4>Lists</h4>
+            <h4>Unordered List</h4>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3
+                    <ol>
+                        <li>Subitem 1</li>
+                        <li>Subitem 2</li>
+                </li>
+            </ul>
+            
+            <h4>Ordered List</h4>
+            <ol type="A">
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ol>
+
+            <h4>Definition List</h4>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language</dd>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets</dd>
+                <dt>JS</dt>
+                <dd>JavaScript</dd>
+            </dl>
+
+            <h4>Description List</h4>
+            <dl>
+                <dt>Apple</dt>
+                <dd>A fruit that is red or green.</dd>
+                <dt>Banana</dt>
+                <dd>A long yellow fruit.</dd>
+                <dt>Carrot</dt>
+                <dd>An orange vegetable that is crunchy.</dd>
+            </dl>
+
+            <br>
+            <h4>Tables</h4>
+            <table border="1" width="400">
+                <tr bgcolor="lightgrey">
+                    <th> Name </th>
+                    <th> Age </th>
+                    <th> City </th>
+                </tr>
+                <tr bgcolor="green" align="center">
+                    <td> Alice </td>
+                    <td> 30 </td>
+                    <td> New York </td>
+                </tr>
+                <tr>
+                    <td> Bob </td>
+                    <td> 25 </td>
+                    <td> Los Angeles </td>
+                </tr>
+                <tr>
+                    <td> Charlie </td>
+                    <td> 35 </td>
+                    <td> Chicago </td>
+                </tr>
+            </table>
+            <br>
+
+            <!-- span : adds markup to text or portion of a document  -->
+
+            <span style="color: green; font-weight: bold;">
+                This is a span example
+            </span>
+
+            <br>
+            <br>
+
+            <!-- div : creates a division or section in an HTML document -->
+            <div style="background-color: lightblue; padding: 10px;">
+                <h3>This is a div section</h3>
+                <p>This section has a light blue background and some padding.</p>
+            </div>
+            <br>
+
+            <!-- iframe : embeds another HTML document within the current one 
+                            used for ads, hacking techniques by embedding the full page -->
+            <iframe style="border: 10;" src="ad.html" width="400" height="300">
+                Your browser does not support iframes.
+            </iframe>
+
+            <br>
+            <br>    
+
+            
+        </body> 
+</html>
